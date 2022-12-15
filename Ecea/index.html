@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>ECEA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+      
+    <section class="main">
+      <div class="background"></div>
+      <nav class="nav">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./IMAGES/ECEA logo.png" alt="logo" /></a>
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#about-us">About Us</a>
+          <!-- <a href="#">Our Events</a>*/ -->
+          <a href="crew.html">Crew</a>
+          <a href="#contact-us">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="clg-content" style="display:flex; flex-direction:column;">
+        <p style="font-size:14px;">Sri Venkateswara College of Engineering</p>
+        <p style="font-size:12px;">Department of Electronics and Communication Engineering</p>
+      </div>
+      <div class="location-container">
+        <div class="location">
+          <a href="https://goo.gl/maps/inFA71ec41VaKNmG6"
+            ><i class="ri-map-pin-2-fill"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="main-container">
+      <div class="container">
+        <div class="left">
+          <img
+            src="./Images/23810-removebg-preview.png"
+            alt="abt-us"
+            style="width: 25rem; height: 25rem"
+          />
+        </div>
+      </div>
+      <div class="side-container">
+        <div class="abt-head"  id="about-us">
+          <h1>ABOUT US</h1>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <div class="abt-content">
+          <p>
+            The Electronics and engineering association also known as ECEA is running efficiently through years in svce. The main objective of this association is to collectively work as a team to organize and improve the technical and non technical skills of the students.  It is not only for the students of ECE but also for students from other departments. The association is headed by our HOD, DR S Muthukumar , DR T J Jeyaprabha and Mr Elangovan. Several events like Make-a-thon , tech mystery and workshops take place every year headed by different office bearers. In the year 2020-2021 placement training activities were organized for 2nd year ECE students in order to create an edge for them. These events were planned to help the students to enhance and develop skills that are required for placements
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contact-container"  id="contact-us">
+        <div class="contact-content">
+        <h1>Contact Us</h1>
+        </div>
+        <div class="right-container">
+        <div class="right-content1">
+          <div class="mobile1">
+            <i class="ri-phone-fill"></i>
+          </div>
+          <p>88257 27963<br>
+          Guganesh R<br>
+          President</p>
+        </div>
+        <div class="right-content2">
+          <div class="ping">
+            <i class="ri-map-pin-2-fill"></i>
+          </div>
+          <p>ECE Department<br>
+          Sri Venkateswara College <br>of Engineering</p>
+        </div>
+        <div class="right-content3">
+          <div class="mobile2">
+            <i class="ri-phone-fill"></i>
+          </div>
+          <p>97898 54546<br>
+          V S Prithiviraj<br>
+          Secretary</p>
+        </div>
+        <div class="right-content4">
+          <div class="mail-logo">
+          <i class="ri-mail-fill"></i></div>
+          <p>ecea@svce.ac.in</p>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+
+      ScrollReveal().reveal('.clg-content, .location, .abt-head', {delay: 500, origin: 'left'});
+      ScrollReveal().reveal('.abt-content, .right-content1, .right-content2, .right-content3, .right-content4', {delay: 600, origin: 'bottom', interval: 100});
+      ScrollReveal().reveal('.abt-content', {delay: 1200, origin: 'bottom', interval: 300});
+      ScrollReveal().reveal('.left', {delay: 1000, origin: 'right', interval: 100});
+      ScrollReveal().reveal('.contact-content', {delay: 500, origin: 'top'});
+    </script> 
+
+  </body>
+</html>
