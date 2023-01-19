@@ -1,0 +1,1377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(226, 244, 250);
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+		           left bottom,
+			   left top,
+			   color-stop(0.44, rgb(181, 237, 247)),
+			   color-stop(0.72,  #80d6e6),
+			   color-stop(0.86, #75f1f1));
+}
+
+#preloader {
+    background: black url(./Ecea/Images/Electric-Loading-unscreen.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 999999999;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 600ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: black;
+  }
+  
+  .nav-link::before {
+    width: 0%;
+    bottom: 5px;
+  }
+  
+  .nav-link:hover::before {
+    width: 70%;
+  }
+
+.masthead {
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ } 
+
+ .fluid-container{
+    background-color:none;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 260px;
+    
+}
+#main_img{
+    height: 8rem;
+    border-radius:10px;
+    padding: 0 1rem;
+    margin:10px 10px;
+    background-color: rgba(217, 251, 255, 0.8);
+    box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+    border-radius: 5px;
+}
+#main_txt{
+    font-size: 30px;
+    background-color:none;
+    color: #fff;
+    padding: 1px 7px;
+    margin: 30px 10px;
+    border-radius: 5px;
+    
+}
+
+#main-txted {
+    font-size: 20px;
+    margin: 30px 10px;
+}
+
+
+ #about {
+    position: relative;
+    height: 90vh;
+    padding: 50px;
+ }
+
+#abt {
+    position: relative;
+    top: 180px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 14px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #000;
+}
+#ab-pic {
+    height: 10vh;
+    width: 50%;
+    overflow: hidden;
+    padding: 40px;
+}
+#member {
+    height: 110vh;
+}
+#mem {
+    position: relative;
+    top: -30px;
+}
+#membered {
+    position: relative;
+    top: 10px;
+}
+#benefits {
+    height: 400px;
+}
+#btned {
+    position: relative;
+    top: 120px;
+}
+
+#top-cred {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top-credes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top-creded {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+.card {
+    background-color: #e5f3f7;
+}
+.team .card {
+    box-shadow: 20px 20px 40px rgba(0,0,0,1);
+}
+
+#crew-img {
+    height: 160px;
+    width: 160px;
+}
+.socials i:hover{
+    transform: scale(1.2);
+}
+
+.card-body:hover{
+    transform: translateY(-1px);
+    cursor: pointer;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    transition-duration: 700ms;
+}
+
+ #drop-btn {  
+    text-align: center;
+}
+ #drop-btn1 {  
+    text-align: center;
+}
+#about a {
+    text-decoration: none;
+    color: #000;
+}
+#team a {
+    text-decoration: none;
+    color: black;
+}
+#contact a {
+    text-decoration: none;
+    color: skyblue;
+}
+#btned a {
+    text-decoration: none;
+    color: #000;
+}
+
+#team {
+    width: 100vw;
+    height: 300vh;
+    background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+    background-size:cover;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+#team h2 {
+    margin: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#ben-con {
+    position: relative;
+    top: 200px;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+} 
+
+@media screen and (max-width:1440px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -140px;
+        height: 80vh;
+        padding: 50px;
+     }
+     #btned {
+        position: relative;
+        top: 50px;
+    }
+    .text {
+        font-size: 12px;
+    }
+    #ben-con {
+        height: 120vh;
+    }
+    #membered {
+        position: relative;
+        top: -200px;
+    }
+    #mem {
+        position: relative;
+        top: -160px;
+    }
+
+    #team {
+        width: 100vw;
+        height: 300vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+    
+}
+@media screen and (max-width:1300px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -140px;
+        height: 80vh;
+        padding: 50px;
+     }
+
+     #team {
+        width: 100vw;
+        height: 300vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+    
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+    }
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -140px;
+        height: 80vh;
+        padding: 50px;
+     }
+    .text {
+    font-size: 12px;
+    color: #545454;
+    line-height: 20px;
+    text-align: justify;
+    font-weight: 600;
+    padding: 20px;
+    }
+    #ab-pic {
+        height: 40vh;
+        width: 40%;
+        overflow: hidden;
+        padding: 60px;
+    }
+    
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+    }
+    #team {
+        width: 100vw;
+        height: 300vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+    #member {
+        position: relative;
+        height: 50vh;
+        top: 100px;
+    }
+    #membered {
+        position: relative;
+    }
+    #contact {
+        position: relative;
+        top: 50rem;
+    }
+    #member {
+        height: 70vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 80vh;
+        padding: 50px;
+     }
+    #ben-con {
+        position: relative;
+        top: 50px;
+    }
+    #btned {
+        position: relative;
+        top: 75px;
+    }
+    #team {
+        width: 100vw;
+        height: 300vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+    #team h2 {
+        margin: 70px;
+        font-size: 40px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #member {
+        position: relative;
+        top: 200px;
+        height: 60vh;
+    }
+    #contact {
+        position: relative;
+        top: 30rem;
+    }
+    
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+
+}
+@media screen and (max-width:992px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 120vh;
+        padding: 50px;
+     }
+    #ben-con {
+        position: relative;
+        top: 50px;
+    }
+    #btned {
+        position: relative;
+        top: 75px;
+    }
+    #team {
+        width: 100vw;
+        height: 740vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+    #team h2 {
+        margin: 70px;
+        font-size: 40px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #member {
+        position: relative;
+        top: 10rem;
+        height: 70vh;
+    }
+    #membered {
+        position: relative;
+        top: 1px;
+    }
+    #contact {
+        position: relative;
+        top: 70rem;
+    }
+    
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+
+}
+
+ @media (max-width: 768px){ 
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 4rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 120vh;
+        padding: 50px;
+     }
+
+    #ben-con {
+        position: relative;
+        top: 800px;
+    }
+    #btned {
+        position: relative;
+        top: 140px;
+    }
+    #about h2 {
+        margin: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #ben-con {
+        position: relative;
+        top: 100px; 
+    }
+    #contact {
+        position: relative;
+        top: 80rem;
+    }
+    #team {
+        width: 100vw;
+        height: 740vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+    
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+    }
+    #drop-btn { 
+        text-align: center;
+    }
+    #drop-btn1 { 
+        text-align: center;
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+
+ }
+ @media (max-width: 590px) and (max-height: 900px){
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+    
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 4rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 140vh;
+        padding: 50px;
+     }
+
+    #team {
+        width: 100vw;
+        height: 800vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 8px;
+    }
+    #drop-btn { 
+        text-align: center;
+    }
+    #drop-btn1 { 
+        text-align: center;
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+}
+
+
+ @media (max-width: 590px) and (min-height: 900px){
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+
+    
+    
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 220px;
+        
+    }
+    #main_img{
+        height: 6rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 30px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 30px 10px;
+    }
+
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 110vh;
+        padding: 50px;
+     }
+
+    #team {
+        width: 100vw;
+        height: 720vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+    #texted {
+        position: relative;
+        top: 10px;
+        font-size: 8px;
+    }
+    #drop-btn { 
+        text-align: center;
+    }
+    #drop-btn1 { 
+        text-align: center;
+    }
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+}
+ @media (max-width: 400px) and (max-height: 750px){
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:hover {
+        opacity: 1;
+      }
+      
+      .nav-link::before {
+        transition: 600ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: black;
+      }
+      
+      .nav-link::before {
+        width: 0%;
+        bottom: 5px;
+      }
+      
+      .nav-link:hover::before {
+        width: 70%;
+      }
+
+    .fluid-container{
+        background-color:none;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 160px;
+        
+    }
+    #main_img{
+        height: 4rem;
+        border-radius:10px;
+        padding: 0 1rem;
+        margin:10px 10px;
+        background-color: rgba(217, 251, 255, 0.8);
+        box-shadow: rgb(108, 126, 128) 0px 20px 30px -10px;
+        border-radius: 5px;
+    }
+    #main_txt{
+        font-size: 30px;
+        background-color:none;
+        color: #fff;
+        padding: 1px 7px;
+        margin: 20px 10px;
+        border-radius: 5px;
+        
+    }
+
+    #main-txted {
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+
+    #about {
+        position: relative;
+        top: -200px;
+        height: 180vh;
+        padding: 50px;
+     }
+
+    #team {
+        width: 100vw;
+        height: 980vh;
+        background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
+        background-size:cover;
+        object-fit: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+
+    #drop-btn { 
+        text-align: center;
+    }
+    #drop-btn1 { 
+        text-align: center;
+    }
+
+    #member {
+        height: 100vh;
+    }
+
+    #mem {
+        position: relative;
+        top: -100px;
+        font-size: 30px;
+    }
+    #memed {
+        font-size: 30px;
+    }
+    
+
+    #membered {
+        position: relative;
+        top: -40px;
+    }
+}
+
+ 
