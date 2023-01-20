@@ -460,14 +460,14 @@ h3 {
 
     #about {
         position: relative;
-        top: -160px;
-        height: 100vh;
+        top: -140px;
+        height: 80vh;
         padding: 50px;
      }
 
      #team {
         width: 100vw;
-        height: 360vh;
+        height: 300vh;
         background: url(./Ecea/Images/abstract-classic-blue-background_23-2148416395.jpg);
         background-size:cover;
         object-fit: contain;
