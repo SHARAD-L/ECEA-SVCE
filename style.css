@@ -1568,12 +1568,11 @@ h3 {
     }
 
     #member {
-        height: 100vh;
+        height: 210vh;
     }
 
     #mem {
         position: relative;
-        top: -100px;
         font-size: 30px;
     }
     #memed {
